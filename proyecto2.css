@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+header{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 10px;
+    background-color: blanchedalmond ;
+    font-family: 'Robot', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    margin: 5px;
+}
+
+h2{
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.45em;
+    text-decoration: underline;
+}
+
+form{
+    margin: 15px;
+}
+
+#nombre{
+    border: 3px aquamarine inset;
+    margin: 5px;
+}
+
+#edad{
+    border: 3px aquamarine inset;
+    margin: 5px;
+}
+
+.boton{
+    color: white;
+    background-color: aqua;
+    border: white;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    color: aqua;
+    background-color: lavenderblush;
+    border: white;
+}
+
+.container2{
+    margin: 5px;
+    text-align: center;
+}
+
+.container p{
+    color: aqua;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid pink;
+    padding: 5px;
+}
+
+th{
+    background-color: salmon;
+    color: seashell;
+}
+
+tr:hover{
+    background-color: beige;
+}
+
+td:hover{
+    cursor: pointer; 
+}

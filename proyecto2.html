@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/proyecto2.css">
+    <title>PROYECTO CODERHOUSE</title>
+</head>
+<body>
+    <script src="/js/proyecto2.js"></script>
+    <header>
+        <div class="header">
+            <h1>PROYECTO 2da Pre-entrega</h1>
+        </div>
+    </header>
+    <p>En este presente proyecto voy a mostrar un simulador iteractivo. Donde existe una relacion entre el usario y la página.</p>
+
+<div class="container py-2">
+        <h2 class="lead">Ingrese usuarios:</h2>
+        <form>
+           <input id="nombre" type="text" placeholder="Ingresa tu nombre" class="form-control my-2">
+           <br>
+           <input id="edad" type="text" placeholder="Ingresa tu edad" class="form-control my-2">
+           <br>
+           <br>
+                
+           <button class="boton" class="btn btn success" type="reset" onclick="capturar();">AGREGAR</button>  
+        </form>
+</div>
+
+<div class="container2">
+    <caption>Se mostrarán aquí las personas registradas.</p> </caption>
+        <table class="table" id="tabla">
+            <thead class="thead-inverse">
+               <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+               </tr>
+            </thead>
+        </table>
+ </div>
+</body>
+</html>
